@@ -1,0 +1,76 @@
+nlu:
+- intent: saludo
+  examples: |
+    - hola
+    - buenas
+    - buenos dias
+    - buenas tardes
+    - hola bot
+    - hey
+    - que tal
+
+- intent: despedida
+  examples: |
+    - adios
+    - hasta luego
+    - nos vemos
+    - chao
+    - me voy
+
+- intent: preguntar_desmayo
+  examples: |
+    - que hacer si alguien se desmaya
+    - una persona se ha desmayado que hago
+    - como actuar ante un desmayo
+    - que hago con alguien desmayado
+    - primeros auxilios para un desmayo
+    - una persona perdió el conocimiento
+    - alguien se desmayo
+
+- intent: preguntar_rcp
+  examples: |
+    - como hacer rcp
+    - como se hace la reanimacion cardiopulmonar
+    - como reanimar a una persona
+    - pasos para hacer rcp
+    - que hacer si alguien no respira
+
+- intent: preguntar_hemorragia
+  examples: |
+    - que hacer ante una hemorragia
+    - como detener una hemorragia
+    - una persona sangra mucho
+    - como actuar si hay mucho sangrado
+
+- intent: preguntar_emergencias
+  examples: |
+    - cual es el numero de emergencias
+    - a que numero llamo en una emergencia
+    - telefono de emergencias
+    - cual es el 112
+
+- intent: preguntar_botiquin
+  examples: |
+    - que debe tener un botiquin
+    - elementos de un botiquin
+    - que llevar en un botiquin de primeros auxilios
+
+- intent: preguntar_infarto
+  examples: |
+    - sintomas de un infarto
+    - como reconocer un infarto
+    - dolor en el pecho puede ser un infarto
+    - que hacer ante un infarto
+
+- intent: preguntar_quemadura
+  examples: |
+    - que hacer con una quemadura
+    - primeros auxilios para quemaduras
+    - como tratar una quemadura
+
+- intent: preguntar_general
+  examples: |
+    - que hacer ante una emergencia
+    - ayudame con primeros auxilios
+    - tengo una duda de primeros auxilios
+    - que recomiendas en una emergencia

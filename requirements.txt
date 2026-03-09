@@ -1,0 +1,4 @@
+rasa
+chromadb
+sentence-transformers
+groq

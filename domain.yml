@@ -1,0 +1,21 @@
+intents:
+- saludo
+- despedida
+- preguntar_rcp
+- preguntar_desmayo
+- preguntar_hemorragia
+- preguntar_emergencias
+- preguntar_botiquin
+- preguntar_infarto
+- preguntar_quemadura
+- preguntar_general
+
+responses:
+  utter_saludo:
+  - text: "Hola, soy tu asistente de primeros auxilios."
+
+  utter_despedida:
+  - text: "Cuídate."
+
+actions:
+- action_rag

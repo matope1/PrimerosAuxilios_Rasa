@@ -1,0 +1,50 @@
+rules:
+- rule: responder saludo
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+
+- rule: responder despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: responder preguntas de RAG
+  steps:
+  - intent: preguntar_rcp
+  - action: action_rag
+
+- rule: responder desmayo
+  steps:
+  - intent: preguntar_desmayo
+  - action: action_rag
+
+- rule: responder hemorragia
+  steps:
+  - intent: preguntar_hemorragia
+  - action: action_rag
+
+- rule: responder emergencias
+  steps:
+  - intent: preguntar_emergencias
+  - action: action_rag
+
+- rule: responder botiquin
+  steps:
+  - intent: preguntar_botiquin
+  - action: action_rag
+
+- rule: responder infarto
+  steps:
+  - intent: preguntar_infarto
+  - action: action_rag
+
+- rule: responder quemadura
+  steps:
+  - intent: preguntar_quemadura
+  - action: action_rag
+
+- rule: responder general
+  steps:
+  - intent: preguntar_general
+  - action: action_rag

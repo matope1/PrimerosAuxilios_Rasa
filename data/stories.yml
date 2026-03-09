@@ -1,0 +1,16 @@
+stories:
+
+- story: saludo
+  steps:
+  - intent: saludo
+  - action: utter_saludo
+
+- story: pregunta general
+  steps:
+  - intent: preguntar_general
+  - action: action_rag
+
+- story: despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
