@@ -45,7 +45,6 @@ rasa shell
 #### Preguntas sobre desmayos
 - que debo hacer si una persona se desmaya
 - como ayudar a alguien que perdió el conocimiento
-- que hago si alguien se desmaya en casa
 - que pasos debo seguir ante un desmayo
 
 #### Preguntas sobre RCP
@@ -55,7 +54,6 @@ rasa shell
 - que hago si alguien no respira
 
 #### Emergencias
-- cual es el telefono de emergencias en europa
 - que numero debo llamar en caso de accidente
 - que numero marco si hay una emergencia
 - como contacto con emergencias
@@ -63,7 +61,6 @@ rasa shell
 #### Hemorragias (sin documentacion, pero es un intent)
 - que hacer si una persona tiene una herida que sangra mucho
 - como detener un sangrado fuerte
-- que hago si alguien pierde mucha sangre
 
 #### Botiquín (sin documentacion, pero es un intent)
 - que cosas deberia tener un botiquin de primeros auxilios
