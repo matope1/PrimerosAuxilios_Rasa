@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python rag/ingest.py
 ```
 
-Terminal 1 (logging)
+Terminal 1 (Terminal para ver loggs en cada pregunta y respuesta)
 ```
 rasa train
 ```
@@ -36,6 +36,9 @@ rasa run actions
 ```
 Terminal 2 (en otra terminal, dentro del mismo venv):
 *Chat interactivo*
+```
+venv\Scripts\activate
+```
 ```
 rasa shell
 ```
